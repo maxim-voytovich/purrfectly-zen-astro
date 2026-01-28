@@ -211,7 +211,7 @@ const Hero = () => {
             razem z nami!
           </h1>
           <p className="text-muted-foreground max-w-md text-lg leading-relaxed md:text-xl">
-            Idealne miejsce, aby odciąć się od zgiełku i ponownie połączyć się z tym, co naprawdę ważne: spokojem, obecnością i delikatnym mruczeniem.
+            Idealne , aby odciąć się od zgiełku i ponownie połączyć się z tym, co naprawdę ważne: spokojem, obecnością i delikatnym mruczeniem.
           </p>
 
           {/* Trust Badges */}
