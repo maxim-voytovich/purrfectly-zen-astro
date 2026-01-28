@@ -159,7 +159,7 @@ const Navigation = () => {
                     data-testid="button-join-mobile"
                     className="font-heading bg-primary text-primary-foreground hover:bg-primary/90 w-full rounded-full py-4 font-medium shadow-lg transition-all hover:shadow-xl"
                   >
-                    Join the Clowder
+                    Dołącz do Clowder
                   </button>
                 </motion.div>
               </a>
@@ -188,10 +188,10 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
         >
           <span className="font-hand text-primary mb-4 inline-block -rotate-2 text-2xl">
-            Welcome home, human!
+            Witaj w domu człowiek!
           </span>
           <h1 className="font-heading text-foreground mb-6 text-5xl leading-[1.1] font-bold md:text-7xl">
-            Let's find your inner{' '}
+            Dawaj znajdzemy twój{' '}
             <span className="text-primary relative inline-block">
               Zen
               <svg
@@ -208,11 +208,10 @@ const Hero = () => {
               </svg>
             </span>{' '}
             <br />
-            with a cat!
+            razem z nami!
           </h1>
           <p className="text-muted-foreground max-w-md text-lg leading-relaxed md:text-xl">
-            The purrfect place to disconnect from the noise and reconnect with
-            what matters: peace, presence, and gentle purrs.
+            Idealne miejsce, aby odciąć się od zgiełku i ponownie połączyć się z tym, co naprawdę ważne: spokojem, obecnością i delikatnym mruczeniem.
           </p>
 
           {/* Trust Badges */}

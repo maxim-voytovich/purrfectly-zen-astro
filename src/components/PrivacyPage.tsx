@@ -28,7 +28,7 @@ export default function Privacy() {
         >
           <div>
             <h1 className="font-heading text-foreground mb-4 text-4xl font-bold md:text-5xl">
-              Privacy Policy
+              Polityka Prywatności
             </h1>
           </div>
 
@@ -36,61 +36,51 @@ export default function Privacy() {
             <div className="space-y-6 p-8 md:p-12">
               <div className="space-y-3">
                 <h2 className="font-heading text-foreground text-xl font-bold">
-                  Data We Collect
+                  Jakie Dane Zbieramy
                 </h2>
                 <p className="text-muted-foreground">
-                  We collect email addresses from users who choose to join our
-                  community. No payment information or sensitive data is
-                  required. Everything is stored locally in your browser using
-                  localStorage.
+                  Zbieramy adresy e-mail od użytkowników, którzy decydują się dołączyć do naszej społeczności. Nie wymagane są żadne informacje o płatności ani poufne dane. Wszystko jest przechowywane lokalnie w Twojej przeglądarce przy użyciu localStorage.
                 </p>
               </div>
 
               <div className="space-y-3">
                 <h2 className="font-heading text-foreground text-xl font-bold">
-                  How We Use Your Data
+                  Jak Używamy Twoich Danych
                 </h2>
                 <p className="text-muted-foreground">
-                  Your email is used only for newsletter communications and
-                  community updates. We never sell or share your data with third
-                  parties. You can unsubscribe anytime.
+                  Twój e-mail jest używany tylko do komunikacji w biuletynie i aktualizacji społeczności. Nigdy nie sprzedajemy ani nie udostępniamy Twoich danych stronom trzecim. Możesz się wypisać w dowolnym momencie.
                 </p>
               </div>
 
               <div className="space-y-3">
                 <h2 className="font-heading text-foreground text-xl font-bold">
-                  Session Data
+                  Dane Sesji
                 </h2>
                 <p className="text-muted-foreground">
-                  Your meditation sessions and progress are stored locally on
-                  your device. We do not track or collect information about your
-                  usage patterns. You have full control over your data.
+                  Twoje sesje medytacji i postęp są przechowywane lokalnie na Twoim urządzeniu. Nie śledzami ani nie zbieramy informacji o wzorcach Twojego użytkowania. Masz pełną kontrolę nad swoimi danymi.
                 </p>
               </div>
 
               <div className="space-y-3">
                 <h2 className="font-heading text-foreground text-xl font-bold">
-                  Security
+                  Bezpieczeństwo
                 </h2>
                 <p className="text-muted-foreground">
-                  We take your privacy seriously. All data transmissions are
-                  encrypted. We follow best practices for web security and
-                  regularly update our systems.
+                  Bierzemy Twoją prywatność poważnie. Wszystkie transmisje danych są szyfrowane. Postępujemy zgodnie z najlepszymi praktykami bezpieczeństwa sieci i regularnie aktualizujemy nasze systemy.
                 </p>
               </div>
 
               <div className="space-y-3">
                 <h2 className="font-heading text-foreground text-xl font-bold">
-                  Contact Us
+                  Skontaktuj się z Nami
                 </h2>
                 <p className="text-muted-foreground">
-                  If you have concerns about your privacy, please reach out
-                  through our contact page. We're here to help.
+                  Jeśli masz obawy dotyczące prywatności, skontaktuj się z nami za pośrednictwem naszej strony kontaktowej. Jesteśmy tutaj, aby pomóc.
                 </p>
               </div>
 
               <div className="border-border/40 text-muted-foreground border-t pt-4 text-sm">
-                Last updated: {new Date().toLocaleDateString()}
+                Ostatnia aktualizacja: {new Date().toLocaleDateString()}
               </div>
             </div>
           </div>
@@ -101,7 +91,7 @@ export default function Privacy() {
                 data-testid="button-back-home-privacy"
                 className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-2 font-bold"
               >
-                Back to Home
+                Powrót do Strony Głównej
               </button>
             </a>
           </div>
